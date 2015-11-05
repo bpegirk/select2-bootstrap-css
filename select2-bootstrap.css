@@ -18,6 +18,13 @@
   padding: 0;
 }
 
+/* changes - add form-inline parametres */
+.form-inline .select2-container.form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
 /**
  * Adjust Select2 inputs to fit Bootstrap 3 default .form-control appearance.
  */
